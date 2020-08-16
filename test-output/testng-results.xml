@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test automtion regression suite" duration-ms="39002" started-at="2020-08-16T12:06:34Z" finished-at="2020-08-16T12:07:13Z">
+    <groups>
+    </groups>
+    <test name="TestChrome" duration-ms="12724" started-at="2020-08-16T12:06:34Z" finished-at="2020-08-16T12:06:47Z">
+      <class name="ParallelTest">
+        <test-method status="PASS" signature="disablelogs()[pri:0, instance:ParallelTest@3f49dace]" name="disablelogs" is-config="true" duration-ms="0" started-at="2020-08-16T17:36:34Z" finished-at="2020-08-16T17:36:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- disablelogs -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:ParallelTest@3f49dace]" name="setup" is-config="true" duration-ms="3941" started-at="2020-08-16T17:36:34Z" finished-at="2020-08-16T17:36:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="freshWorkslogoTest()[pri:1, instance:ParallelTest@3f49dace]" name="freshWorkslogoTest" duration-ms="407" started-at="2020-08-16T17:36:38Z" finished-at="2020-08-16T17:36:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- freshWorkslogoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ParallelTest@3f49dace]" name="tearDown" is-config="true" duration-ms="125" started-at="2020-08-16T17:36:39Z" finished-at="2020-08-16T17:36:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:ParallelTest@3f49dace]" name="setup" is-config="true" duration-ms="3211" started-at="2020-08-16T17:36:39Z" finished-at="2020-08-16T17:36:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="freshWorksTitleTest()[pri:2, instance:ParallelTest@3f49dace]" name="freshWorksTitleTest" duration-ms="344" started-at="2020-08-16T17:36:42Z" finished-at="2020-08-16T17:36:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- freshWorksTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ParallelTest@3f49dace]" name="tearDown" is-config="true" duration-ms="94" started-at="2020-08-16T17:36:42Z" finished-at="2020-08-16T17:36:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:ParallelTest@3f49dace]" name="setup" is-config="true" duration-ms="2427" started-at="2020-08-16T17:36:42Z" finished-at="2020-08-16T17:36:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getFooterLinksTest()[pri:3, instance:ParallelTest@3f49dace]" name="getFooterLinksTest" duration-ms="2019" started-at="2020-08-16T17:36:45Z" finished-at="2020-08-16T17:36:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFooterLinksTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ParallelTest@3f49dace]" name="tearDown" is-config="true" duration-ms="140" started-at="2020-08-16T17:36:47Z" finished-at="2020-08-16T17:36:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ParallelTest -->
+    </test> <!-- TestChrome -->
+    <test name="TestFirefox" duration-ms="39002" started-at="2020-08-16T12:06:34Z" finished-at="2020-08-16T12:07:13Z">
+      <class name="ParallelTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:ParallelTest@3abbfa04]" name="setup" is-config="true" duration-ms="10034" started-at="2020-08-16T17:36:34Z" finished-at="2020-08-16T17:36:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="freshWorkslogoTest()[pri:1, instance:ParallelTest@3abbfa04]" name="freshWorkslogoTest" duration-ms="234" started-at="2020-08-16T17:36:44Z" finished-at="2020-08-16T17:36:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- freshWorkslogoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ParallelTest@3abbfa04]" name="tearDown" is-config="true" duration-ms="2658" started-at="2020-08-16T17:36:45Z" finished-at="2020-08-16T17:36:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:ParallelTest@3abbfa04]" name="setup" is-config="true" duration-ms="7223" started-at="2020-08-16T17:36:47Z" finished-at="2020-08-16T17:36:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="freshWorksTitleTest()[pri:2, instance:ParallelTest@3abbfa04]" name="freshWorksTitleTest" duration-ms="68" started-at="2020-08-16T17:36:55Z" finished-at="2020-08-16T17:36:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- freshWorksTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ParallelTest@3abbfa04]" name="tearDown" is-config="true" duration-ms="5590" started-at="2020-08-16T17:36:55Z" finished-at="2020-08-16T17:37:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:ParallelTest@3abbfa04]" name="setup" is-config="true" duration-ms="4006" started-at="2020-08-16T17:37:00Z" finished-at="2020-08-16T17:37:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getFooterLinksTest()[pri:3, instance:ParallelTest@3abbfa04]" name="getFooterLinksTest" duration-ms="4692" started-at="2020-08-16T17:37:04Z" finished-at="2020-08-16T17:37:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFooterLinksTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ParallelTest@3abbfa04]" name="tearDown" is-config="true" duration-ms="4481" started-at="2020-08-16T17:37:09Z" finished-at="2020-08-16T17:37:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ParallelTest -->
+    </test> <!-- TestFirefox -->
+  </suite> <!-- Test automtion regression suite -->
+</testng-results>

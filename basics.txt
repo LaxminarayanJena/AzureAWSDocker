@@ -1,0 +1,47 @@
+create aws account
+go to community api and search docker-compose and create linux instnce
+
+next
+
+add Custom TCP in configure security group
+ssh- anywhere
+download key pair
+copy IPv4 adress from aws 13.233.4.120
+
+
+connect using putty by generating ppk file from pem file through putygen
+ec2-user
+
+or from cmd
+
+VPC-virtual private cloud
+subnet automatically created when vpc is created
+
+AMI-amazon machine images
+
+create image(AMI) from actions
+
+
+--------------------
+sudo yum update -y
+sudo yum remove java -y
+sudo yum install java-1.8.0-openjdk -y
+
+docker --version
+docker ps -a
+docker-compose -v
+docker-compose ps -a
+
+git --version
+
+
+vpc,subnet,securitygroups,instances,configure,ssh,install softwares
+
+touch docker-compose.yml
+vi docker-compose.yml
+i
+copy version2 
+https://github.com/LaxminarayanJena/Docker/blob/master/docker-compose.yml
+
+docker-compose up -d
+docker ps -a
